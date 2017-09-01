@@ -28,13 +28,8 @@ public class Strings {
 		char[] arrSample = {'R', 'O', 'S', 'E'};
 		//String strSample_1 = new String (arrSample);
 		System.out.println(arrSample);
-		public class Sample_TestMaps{
-			  public static void main(String[] args){
-			    Map<String, String> objMap = new HashMap<String, String>();
-			    objMap.put("Name", "Suzuki");
-			    objMap.put("Power", "220");
-			    objMap.put("Type", "2-wheeler");
-			    objMap.put("Price", "85000");
-			    System.out.println("Elements of the Map:");
-			    System.out.println(objMap);
-
+		char[] arrSample_1 = {'k', 'p', 'l', 's'};
+		System.out.println(arrSample_1);
+		
+}
+}
