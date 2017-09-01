@@ -24,9 +24,17 @@ public class Strings {
 		// to remove white spaces
 		s1=s1.replaceAll(" ","");
 		System.out.println(s1);
-		
-	}
-	
-	
+		//String is an array of characters
+		char[] arrSample = {'R', 'O', 'S', 'E'};
+		//String strSample_1 = new String (arrSample);
+		System.out.println(arrSample);
+		public class Sample_TestMaps{
+			  public static void main(String[] args){
+			    Map<String, String> objMap = new HashMap<String, String>();
+			    objMap.put("Name", "Suzuki");
+			    objMap.put("Power", "220");
+			    objMap.put("Type", "2-wheeler");
+			    objMap.put("Price", "85000");
+			    System.out.println("Elements of the Map:");
+			    System.out.println(objMap);
 
-}
